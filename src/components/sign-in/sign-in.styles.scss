@@ -1,0 +1,21 @@
+$mediaMinWidth: 576px;
+
+.sign-in{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .title{
+        margin: 10px 0;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: $mediaMinWidth){
+    .sign-in{
+        width: 380px;
+    }
+}
